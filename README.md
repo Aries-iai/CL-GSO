@@ -35,7 +35,7 @@ conda activate ase
 - Step 4: Run optimization script directly.
   - Execute the optimization script using the provided `run.sh` script, specifying your chosen input file and data format in `run.sh`. This script will orchestrate the genetic algorithm to find optimal jailbreak strategies.
     ```
-    CUDA_VISIBLE_DEVICES=0 python generation_gpt4o.py --input_file "../data/prompt_develop.jsonl" --data_format "jsonl"
+    CUDA_VISIBLE_DEVICES=0 python generation.py --input_file "../data/prompt_develop.jsonl" --data_format "jsonl"
     ```
    
 
