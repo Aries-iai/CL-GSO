@@ -1,6 +1,6 @@
 # Breaking the Ceiling: Exploring the Potential of Jailbreak Attacks through Expanding Strategy Space (CL-GSO) 
 
-> CL-GSO is a novel black-box jailbreak framework that systematically explores the potential ceiling of jailbreak attacks by expanding the strategy space. While existing methods are constrained by predefined, fixed strategies (typically ≤40 strategies), CL-GSO decomposes jailbreak strategies into essential components and enables flexible recombination, creating a vast space of 839 possible strategies.
+> CL-GSO is a novel black-box jailbreak framework that systematically explores the potential ceiling of jailbreak attacks by expanding the strategy space. While existing methods are constrained by predefined, fixed strategies (typically ≤40 strategies), CL-GSO decomposes jailbreak strategies into essential components and enables flexible recombination, creating a vast space of 839 possible strategies. For actual performance, CL-GSO achieves breakthrough performance with >90% success rate on Claude-3.5, a model where prior methods nearly completely fail (0-4%). Moreover, our strategies demonstrate strong cross-model transferability, maintaining effectiveness when transferred to GPT-4o, Llama3, and Qwen-2.5 without requiring any further optimization.
 
 ❗️ **Ethical Considerations.**
 This research aims to unveil LLM security vulnerabilities to facilitate defensive improvements. The code and prompts are shared with the research community under responsible disclosure principles to prevent malicious use.
