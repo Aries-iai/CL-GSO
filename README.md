@@ -1,5 +1,19 @@
-# CL-GSO
-The official implementation for "Breaking the Ceiling: Exploring the Potential of Jailbreak Attacks through Expanding Strategy Space" (ACL2025)
+# Breaking the Ceiling: Exploring the Potential of Jailbreak Attacks through Expanding Strategy Space (CL-GSO) 
+
+> CL-GSO is a novel black-box jailbreak framework that systematically explores the potential ceiling of jailbreak attacks by expanding the strategy space. While existing methods are constrained by predefined, fixed strategies (typically ≤40 strategies), CL-GSO decomposes jailbreak strategies into essential components and enables flexible recombination, creating a vast space of 839 possible strategies.
+
+❗️ **Ethical Considerations.**
+This research aims to unveil LLM security vulnerabilities to facilitate defensive improvements. The code and prompts are shared with the research community under responsible disclosure principles to prevent malicious use.
+
+
+<div align="center">
+    <img src="statics/CL_GSO.png" alt="framework" style="width: 90%;"> 
+</div>
+
+
+
+
+
 
 ## Steps for Setup and Execution
 
@@ -42,4 +56,16 @@ conda activate ase
 ### 3. Results
 You can get the final prompts in "result/adv_prompt.jsonl" and attack results in "result/record.jsonl" after optimization.
 
+
+
+## :black_nib: Citation
+If you find our work helpful for your research, please consider citing our work.
+
+```bibtex
+@article{huang2025breaking,
+  title={Breaking the ceiling: Exploring the potential of jailbreak attacks through expanding strategy space},
+  author={Huang, Yao and Sun, Yitong and Ruan, Shouwei and Zhang, Yichi and Dong, Yinpeng and Wei, Xingxing},
+  journal={arXiv preprint arXiv:2505.21277},
+  year={2025}
+}
 
